@@ -35,8 +35,10 @@
       </ul>
     
     <h3>Pastries! ($2 each)</h3>
-      <ul>
-
+      <ul>  
+				<?php	for($i = 0; $i < count($pastries); $i++): ?>
+				<li><?= $pastries[$i] ?></li>
+				<?php endfor; ?>		
       </ul>
   
   </body>
